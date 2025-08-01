@@ -48,7 +48,7 @@ function Project() {
                         <li><p className="para">Built using React functional components and useState hook</p></li>
                     </ul>
                     <div className="projectBtn">
-                        <a href="#project"><button className="btn">Live Demo </button></a>
+                        <a href="https://my-portfolio-l2u6.vercel.app"><button className="btn">Live Demo </button></a>
                         <a href="https://github.com/Escuuuu/todoList"><button className="btn">GitHub</button></a>
                     </div>
 
@@ -113,12 +113,12 @@ function Project() {
                     <ul>
                         <li><p className="para">About Me section with personal introduction</p></li>
                         <li><p className="para">Skills section displaying tech. and tools I use with icons</p></li>
-                        <li><p className="para">Showcasing my project work</p></li>
+                        <li><p className="para">Showcasinggit commit -m "Add project files" my project work</p></li>
                         <li><p className="para">Contact section with direct links to email, LinkedIn and phone</p></li>
 
                     </ul>
                     <div className="projectBtn">
-                        <a href="#project"><button className="btn">Live Demo </button></a>
+                        <a href="https://my-portfolio-seven-xi-64.vercel.app"><button className="btn">Live Demo </button></a>
                         <a href="https://github.com/Escuuuu/myPortfolio"><button className="btn">GitHub</button></a>
                     </div>
                 </div>
