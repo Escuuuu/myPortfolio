@@ -1,0 +1,114 @@
+
+p{
+  margin-left: -7px;
+  font-size: 1.8rem;
+  margin-right: 8px;
+}
+.navContainer {
+    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 70px;
+  flex-wrap: wrap;
+}
+span {
+  color: rgb(216, 11, 11);  
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 8px;
+}
+
+.navMenu {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  list-style: none;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.navMenu li a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+  overflow: hidden;
+}
+
+.navMenu li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: rgb(216, 11, 11);
+  transition: width 0.3s ease;
+}
+
+.navMenu li a:hover::after {
+  width: 100%;
+}
+.navButton {
+  display: flex;
+  align-items: center;
+}
+
+.navButton button {
+  background:  rgb(216, 11, 11);  
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.navButton button:hover {
+  background:  rgb(137, 14, 14);  
+}
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .navMenu {
+    gap: 18px;
+  }
+  .navContainer {
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navContainer {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    padding: 12px;
+  }
+  .navMenu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 12px 0;
+  }
+  .navButton {
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  span {
+    text-align: center;
+    margin: 0 0 8px 0;
+    font-size: 1.5rem;
+  }
+  p{
+  text-align: center;
+    margin: 0 0 8px 0;
+    font-size: 1.5rem;
+}
+}

@@ -1,0 +1,84 @@
+.skillContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+}
+
+.skillLangBase,
+.skillFramework,
+.skillDatabase,
+.skillTools {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(6px);
+}
+
+.skillLangBase h2,
+.skillFramework h2,
+.skillDatabase h2,
+.skillTools h2 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #ff4b4b;
+  border-left: 3px solid #ff4b4b;
+  padding-left: 10px;
+}
+
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skillList li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  padding: 8px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.skillList li:hover {
+  transform: scale(1.04);
+}
+
+.skillList img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 6px;
+  object-fit: contain;
+}
+
+.skillList span {
+  font-size: 0.8rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .skillList li {
+    width: 70px;
+    padding: 6px;
+  }
+
+  .skillLangBase h2,
+  .skillFramework h2,
+  .skillDatabase h2,
+  .skillTools h2 {
+    font-size: 1.1rem;
+  }
+}

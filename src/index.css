@@ -1,0 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --bg-color: linear-gradient(135deg, #020203, #2d2024);
+  --text-color: #fff;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  margin: 0;
+  transition: background 0.3s, color 0.3s;
+}

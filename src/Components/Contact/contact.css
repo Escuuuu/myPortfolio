@@ -1,0 +1,88 @@
+.ContactContainer {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+}
+
+.ContactContainer h1 {
+  margin-bottom: 30px;
+  color: #ff4b4b;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.ContactContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ContactContainer li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 12px 16px;
+  border-radius: 12px;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.ContactContainer li:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: scale(1.02);
+}
+
+.ContactContainer img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  filter: drop-shadow(1px 1px 2px black);
+}
+
+.ContactContainer span {
+  font-size: 1rem;
+  word-break: break-word;
+}
+
+.ContactContainer a {
+  color: #4fd1c5;
+  text-decoration: none;
+}
+
+.ContactContainer a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .ContactContainer {
+    padding: 20px 15px;
+  }
+
+  .ContactContainer li {
+    gap: 12px;
+    padding: 10px 12px;
+  }
+
+  .ContactContainer img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ContactContainer h1 {
+    font-size: 1.6rem;
+  }
+
+  .ContactContainer span {
+    font-size: 0.95rem;
+  }
+}
