@@ -28,7 +28,7 @@ function Hero() {
           <h1>Nitish Choudhary</h1>
           <h3>I am a <span id="element"></span></h3>
           <div className="homeButton">
-            <a href="https://www.linkedin.com/in/nitish-choudhary-373a78214/"><button className="downloadBtn">Download Resume <FontAwesomeIcon icon={faDownload} /></button></a>
+            <a href="/NitishChoudhary_Resume.pdf" download="NitishChoudhary_Resume.pdf"><button className="downloadBtn">Download Resume <FontAwesomeIcon icon={faDownload} /></button></a>
             <a href="https://www.linkedin.com/in/nitish-choudhary-373a78214/"><button className="connectBtn">Connect with me</button></a>
           </div>
 
