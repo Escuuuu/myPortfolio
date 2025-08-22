@@ -12,7 +12,7 @@ function About() {
             <div className='aboutContainer'>
 
                 <div className='left'>
-                    <h3>Meet the Developer</h3>
+                   <center><h3>Meet the Developer</h3></center> 
                     <p>I am a passionate and dedicated MCA graduate from Chandigarh University with a strong
                         foundation in full-stack development. As a fresher,I’ve built multiple projects that
                         demonstrate my ability to create clean, user-friendly, and functional web applications.
